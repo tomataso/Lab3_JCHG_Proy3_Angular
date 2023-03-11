@@ -1,0 +1,12 @@
+INSTRUCIONES DEL LAB 3 - COMPONENTES - ANGULAR - Juan Carlos Hidalgo G.
+
+1.	Descomprimir el .ZIP y mover la carpeta donde guste.
+2.	Abrir la consola en la carpeta correspondiente, en este caso el proyecto se llama “Componentes”.
+3.	En dicho archivo ejecutar el comando “npm install” para que instale todas las dependencias de npm que requiera.
+4.	Corremos el script de la base de datos con “npm run generate” para generar una mini base de datos limpia. (También se puede usar la que trae por defecto así que se puede saltar este paso).
+5.	Se enciende el servidor de backend con “npm run server” dentro de la consola en el fichero del proyecto. En mi caso se puede probar en postman en “ http://localhost:3000/componentes “
+6.	Se abre el proyecto en IntelliJ, se abre la consola de IntelliJ y se ejecuta el aplicativo. En mi caso ejecuto en: ” http://localhost:4200/ “ . También se puede ejecutar a través de la consola del mismo usando el comando “run start”.
+7.	Ir a la URL indicada por el puerto de angular en el localhost y ahí se estará ejecutando la aplicación.
+8.	Ahí se encontra con las diferentes funciones, si por ejemplo selecciona un componente de la lista este tendrá la descripción, desde ahí se puede editar o borrar.
+9.	También en la barra de navegación de arriba puede agregar componentes.
+10.	La barra de búsqueda solo funciona con coincidencias exactas.
