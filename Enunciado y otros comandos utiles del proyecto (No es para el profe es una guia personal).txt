@@ -1,0 +1,81 @@
+Haciendo uso de Angular y de Json-server cree un catálogo para el manejo de componentes:
+
+Componente: Id, nombre, descripción, fecha de fabricación, número de parte y comentarios.
+
+Genere las cuatro operaciones para el catálogo.
+
+Debe entregar el zip del proyecto de angular sin la carpeta de node_modules y las instrucciones para ejecutar su proyecto. 
+
+La interfaz gráfica debe hacer uso de bootstrap.
+
+-----
+
+Componentes
+
+ng g c components/agregar-componente
+ng g c components/detalle-componente
+ng g c components/listar-componente
+
+ng g s servicios/componentes
+
+
+npm install --save json-server
+
+{
+  "componentes": [ ]
+}
+
+
+npm install --save faker
+
+
+-----
+
+var faker = require('faker');
+
+var database = { componentes: []};
+
+for (var i = 1; i<= 10; i++) {
+  database.componentes.push({
+    id: i,
+    nombre: faker.commerce.productName(),
+    descripcion: faker.lorem.sentences(),
+	fabricacion: faker.date.past(),
+	parte:faker.datatype.number(),
+	comentarios: faker.lorem.sentences() 
+  });
+}
+
+console.log(JSON.stringify(database));
+
+
+-----
+
+Faker
+
+    "generate": "node ./server/generateData.js > ./server/database.json",
+    "server": "json-server --watch ./server/database.json"
+
+
+npm run generate
+
+npm run server
+
+-----
+
+bootsrap.
+
+npm install --save bootstrap
+npm install --save jquery
+
+fijarse en los estilos en 
+
+fijarse en angular.json
+
+"styles": [
+"src/styles.css",
+"node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
+"scripts": [
+"node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
