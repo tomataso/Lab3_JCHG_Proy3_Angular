@@ -1,1 +1,71 @@
-<p>listar-componente works!</p>
+<div class="list row">
+  <div class="col-md-8">
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Buscar por nombre"
+        [(ngModel)]="nombre"
+      />
+      <div class="input-group-append">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          (click)="buscarNombre()"
+        >
+          Buscar
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <h4>Lista de Componentes</h4>
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        *ngFor="let componente of componentes; let i = index"
+        [class.active]="i == currentIndex"
+        (click)="setActivarComponente(componente, i)"
+      >
+        {{ componente.nombre }}
+      </li>
+    </ul>
+
+    <button class="m-3 btn btn-sm btn-danger" (click)="eliminarTodosComponentes()">
+      Eliminar Todo
+    </button>
+  </div>
+
+  <div class="col-md-6">
+    <div *ngIf="componenteActual">
+      <h4>Componente</h4>
+      <div>
+        <label><strong>Nombre:</strong></label> {{ componenteActual.nombre }}
+      </div>
+      <div>
+        <label><strong>Descripción:</strong></label>
+        {{ componenteActual.descripcion }}
+      </div>
+      <div>
+        <label><strong>Fabricación:</strong></label>
+        {{ componenteActual.fabricacion }}
+      </div>
+      <div>
+        <label><strong># Parte:</strong></label>
+        {{ componenteActual.parte }}
+      </div>
+      <div>
+        <label><strong>Comentarios:</strong></label>
+        {{ componenteActual.comentarios }}
+      </div>
+      <a class="link-dark" routerLink="/componentes/{{ componenteActual.id }}">
+        Editar
+      </a>
+    </div>
+
+    <div *ngIf="!componenteActual">
+      <br />
+      <p>Por favor seleccione un Producto...</p>
+    </div>
+  </div>
+</div>

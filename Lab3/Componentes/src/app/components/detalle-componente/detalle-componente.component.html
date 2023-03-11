@@ -1,1 +1,78 @@
-<p>detalle-componente works!</p>
+<div style="width: 400px; margin: auto;">
+  <div *ngIf="componenteActual" class="edit-form">
+    <h4>Producto</h4>
+    <form>
+      <div class="form-group">
+        <label for="title">Nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          [(ngModel)]="componenteActual.nombre"
+          name="title"
+        />
+      </div>
+      <div class="form-group">
+        <label for="descripcion">Descripción</label>
+        <input
+          type="text"
+          class="form-control"
+          id="descripcion"
+          [(ngModel)]="componenteActual.descripcion"
+          name="descripcion"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="fabricacion">Fabricación</label>
+        <input
+          type="text"
+          class="form-control"
+          id="fabricacion"
+          [(ngModel)]="componenteActual.fabricacion"
+          name="fabricacion"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="parte">Parte</label>
+        <input
+          type="text"
+          class="form-control"
+          id="parte"
+          [(ngModel)]="componenteActual.parte"
+          name="parte"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="comentarios">Descripción</label>
+        <input
+          type="text"
+          class="form-control"
+          id="comentarios"
+          [(ngModel)]="componenteActual.comentarios"
+          name="comentarios"
+        />
+      </div>
+    </form>
+
+    <button class="btn btn-success" (click)="borrarComponente()">
+      Borrar
+    </button>
+
+    <button
+      type="submit"
+      class="btn btn-success"
+      (click)="actualizarComponente()"
+    >
+      Actualizar
+    </button>
+    <p>{{ mensaje }}</p>
+  </div>
+
+  <div *ngIf="!componenteActual">
+    <br />
+    <p>No se puede acceder al componente...</p>
+  </div>
+</div>

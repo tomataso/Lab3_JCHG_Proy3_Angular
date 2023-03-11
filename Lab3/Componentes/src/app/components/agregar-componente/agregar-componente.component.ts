@@ -42,7 +42,7 @@ export class AgregarComponenteComponent implements OnInit {
         });
   }
 
-  nuevoProducto(): void {
+  nuevoComponente(): void {
     this.submitted = false;
     this.componente = {
       nombre: '',

@@ -1,1 +1,84 @@
-{"componentes":[{"id":1,"nombre":"Incredible Granite Salad","descripcion":"Fugiat est velit placeat numquam nostrum ad sunt earum reiciendis. Saepe sed quidem voluptates ut.","fabricacion":"2022-10-29T16:32:12.770Z","parte":71581,"comentarios":"Ad nihil neque et necessitatibus. Iste qui dolore ut est voluptatem at recusandae. Fugit quia aspernatur rerum sit et qui voluptas praesentium et. Quos dolorum nostrum."},{"id":2,"nombre":"Handmade Plastic Salad","descripcion":"Deserunt nostrum dolore incidunt dolor quo et a. Animi dolorem voluptas ea optio impedit et eligendi ea magni.","fabricacion":"2022-09-06T03:09:03.636Z","parte":28987,"comentarios":"Quisquam nihil et repudiandae non sapiente. Ea ratione doloribus quia adipisci ratione. Consequatur perspiciatis deleniti ut error fuga voluptas nobis alias nam. Qui in autem sint ut. Temporibus assumenda tempora sit qui aut autem."},{"id":3,"nombre":"Gorgeous Plastic Pants","descripcion":"Sed consequatur quibusdam ab culpa. Omnis non enim quis quaerat quod molestiae omnis. Corporis facere nihil culpa dignissimos omnis sint est facere et. Dolor cupiditate eius vel quis et quas assumenda excepturi illo.","fabricacion":"2022-10-03T00:52:32.800Z","parte":54728,"comentarios":"Pariatur est rerum saepe quia est sed vel vel. Pariatur consectetur quasi aspernatur voluptatibus et cum. Hic fugit dolorem."},{"id":4,"nombre":"Intelligent Granite Mouse","descripcion":"Ipsum repellendus porro pariatur et eos ea omnis porro. Sequi cupiditate accusantium incidunt. Consequatur aliquid sed maiores consectetur voluptatem earum dolor. Dolor et aut quo non eum. Labore est et dolorum vel. Suscipit iure est accusantium quidem placeat dolorem.","fabricacion":"2023-01-22T15:22:47.607Z","parte":72344,"comentarios":"Recusandae nulla vel ipsum tempore repellendus accusantium. Voluptas incidunt rerum quis beatae provident qui."},{"id":5,"nombre":"Handcrafted Granite Pizza","descripcion":"Inventore suscipit ut architecto. Itaque harum delectus perferendis. Nam minima sequi omnis dignissimos labore explicabo ex tenetur. Aliquid ut quidem aperiam id consequatur ut necessitatibus repellendus.","fabricacion":"2022-12-12T20:01:35.452Z","parte":53312,"comentarios":"Possimus sunt unde molestiae neque. Sit ipsa officiis. Consequuntur maiores omnis vitae autem doloremque consectetur. Unde itaque voluptatem fugit quis rerum quibusdam provident possimus fugit."},{"id":6,"nombre":"Sleek Steel Pants","descripcion":"Vitae aliquid voluptas qui qui culpa. Molestiae vel at esse non sed deleniti nesciunt eos.","fabricacion":"2023-03-09T06:54:20.897Z","parte":88288,"comentarios":"Laudantium recusandae eos voluptatum et vitae qui. Vel ab asperiores velit qui nobis velit et facilis quod."},{"id":7,"nombre":"Tasty Plastic Soap","descripcion":"Magnam sed sit consectetur reprehenderit esse. Sit cupiditate explicabo.","fabricacion":"2022-08-28T21:04:05.411Z","parte":62066,"comentarios":"Et vero optio. Ea consequatur itaque minus in quasi dolorem consequatur voluptatem."},{"id":8,"nombre":"Fantastic Cotton Chair","descripcion":"Saepe ducimus illo quidem vel accusamus veniam et dolores. Dolorum dicta sapiente cum iusto vel. Et magni et nobis voluptatem.","fabricacion":"2022-09-30T07:05:18.273Z","parte":95775,"comentarios":"Non aut quia molestiae tempore. Distinctio quia sunt quam nobis a quia doloremque. Repellat qui reprehenderit eum at corporis ut vitae natus. Aut ratione temporibus tempore non sed quibusdam."},{"id":9,"nombre":"Licensed Wooden Chair","descripcion":"Est repellendus et ratione id est voluptatem quia illum. Omnis corporis vel optio eum laborum in ex. Nostrum expedita iure sed aut. Magni rerum ad.","fabricacion":"2023-02-15T07:46:08.053Z","parte":77109,"comentarios":"Qui provident et tempore beatae aut et. Quis qui omnis necessitatibus et. Voluptatem adipisci minus dolorem distinctio. Perspiciatis molestiae sint consectetur eum sunt. Asperiores perspiciatis voluptas voluptatum voluptas voluptas. Et dolor distinctio nihil veniam sit veniam dignissimos aut."},{"id":10,"nombre":"Small Frozen Soap","descripcion":"Sed deleniti dolor. Ipsam ducimus amet fuga et vel aliquam nam aliquid. Laudantium aut unde pariatur sit harum quo. Maxime nihil eos quae.","fabricacion":"2022-07-16T06:37:26.769Z","parte":70523,"comentarios":"Nam minima ea modi reiciendis qui harum sunt eos. Consequatur ut autem itaque sapiente reprehenderit."}]}
+{
+  "componentes": [
+    {
+      "id": 1,
+      "nombre": "Incredible Granite Salad",
+      "descripcion": "Fugiat est velit placeat numquam nostrum ad sunt earum reiciendis. Saepe sed quidem voluptates ut.",
+      "fabricacion": "2022-10-29T16:32:12.770Z",
+      "parte": 71581,
+      "comentarios": "Ad nihil neque et necessitatibus. Iste qui dolore ut est voluptatem at recusandae. Fugit quia aspernatur rerum sit et qui voluptas praesentium et. Quos dolorum nostrum."
+    },
+    {
+      "id": 2,
+      "nombre": "Handmade Plastic Salad",
+      "descripcion": "Deserunt nostrum dolore incidunt dolor quo et a. Animi dolorem voluptas ea optio impedit et eligendi ea magni.",
+      "fabricacion": "2022-09-06T03:09:03.636Z",
+      "parte": 28987,
+      "comentarios": "Quisquam nihil et repudiandae non sapiente. Ea ratione doloribus quia adipisci ratione. Consequatur perspiciatis deleniti ut error fuga voluptas nobis alias nam. Qui in autem sint ut. Temporibus assumenda tempora sit qui aut autem."
+    },
+    {
+      "id": 3,
+      "nombre": "Gorgeous Plastic Pants",
+      "descripcion": "Sed consequatur quibusdam ab culpa. Omnis non enim quis quaerat quod molestiae omnis. Corporis facere nihil culpa dignissimos omnis sint est facere et. Dolor cupiditate eius vel quis et quas assumenda excepturi illo.",
+      "fabricacion": "2022-10-03T00:52:32.800Z",
+      "parte": 54728,
+      "comentarios": "Pariatur est rerum saepe quia est sed vel vel. Pariatur consectetur quasi aspernatur voluptatibus et cum. Hic fugit dolorem."
+    },
+    {
+      "id": 4,
+      "nombre": "Intelligent Granite Mouse",
+      "descripcion": "Ipsum repellendus porro pariatur et eos ea omnis porro. Sequi cupiditate accusantium incidunt. Consequatur aliquid sed maiores consectetur voluptatem earum dolor. Dolor et aut quo non eum. Labore est et dolorum vel. Suscipit iure est accusantium quidem placeat dolorem.",
+      "fabricacion": "2023-01-22T15:22:47.607Z",
+      "parte": 72344,
+      "comentarios": "Recusandae nulla vel ipsum tempore repellendus accusantium. Voluptas incidunt rerum quis beatae provident qui."
+    },
+    {
+      "id": 5,
+      "nombre": "Handcrafted Granite Pizza",
+      "descripcion": "Inventore suscipit ut architecto. Itaque harum delectus perferendis. Nam minima sequi omnis dignissimos labore explicabo ex tenetur. Aliquid ut quidem aperiam id consequatur ut necessitatibus repellendus.",
+      "fabricacion": "2022-12-12T20:01:35.452Z",
+      "parte": 53312,
+      "comentarios": "Possimus sunt unde molestiae neque. Sit ipsa officiis. Consequuntur maiores omnis vitae autem doloremque consectetur. Unde itaque voluptatem fugit quis rerum quibusdam provident possimus fugit."
+    },
+    {
+      "id": 6,
+      "nombre": "Sleek Steel Pants",
+      "descripcion": "Vitae aliquid voluptas qui qui culpa. Molestiae vel at esse non sed deleniti nesciunt eos.",
+      "fabricacion": "2023-03-09T06:54:20.897Z",
+      "parte": 88288,
+      "comentarios": "Laudantium recusandae eos voluptatum et vitae qui. Vel ab asperiores velit qui nobis velit et facilis quod."
+    },
+    {
+      "id": 7,
+      "nombre": "Tasty Plastic Soap",
+      "descripcion": "Magnam sed sit consectetur reprehenderit esse. Sit cupiditate explicabo.",
+      "fabricacion": "2022-08-28T21:04:05.411Z",
+      "parte": 62066,
+      "comentarios": "Et vero optio. Ea consequatur itaque minus in quasi dolorem consequatur voluptatem."
+    },
+    {
+      "id": 8,
+      "nombre": "Fantastic Cotton Chair",
+      "descripcion": "Saepe ducimus illo quidem vel accusamus veniam et dolores. Dolorum dicta sapiente cum iusto vel. Et magni et nobis voluptatem.",
+      "fabricacion": "2022-09-30T07:05:18.273Z",
+      "parte": 95775,
+      "comentarios": "Non aut quia molestiae tempore. Distinctio quia sunt quam nobis a quia doloremque. Repellat qui reprehenderit eum at corporis ut vitae natus. Aut ratione temporibus tempore non sed quibusdam."
+    },
+    {
+      "id": 9,
+      "nombre": "Licensed Wooden Chair",
+      "descripcion": "Est repellendus et ratione id est voluptatem quia illum. Omnis corporis vel optio eum laborum in ex. Nostrum expedita iure sed aut. Magni rerum ad.",
+      "fabricacion": "2023-02-15T07:46:08.053Z",
+      "parte": 77109,
+      "comentarios": "Qui provident et tempore beatae aut et. Quis qui omnis necessitatibus et. Voluptatem adipisci minus dolorem distinctio. Perspiciatis molestiae sint consectetur eum sunt. Asperiores perspiciatis voluptas voluptatum voluptas voluptas. Et dolor distinctio nihil veniam sit veniam dignissimos aut."
+    },
+    {
+      "id": 10,
+      "nombre": "Small Frozen Soap",
+      "descripcion": "Sed deleniti dolor. Ipsam ducimus amet fuga et vel aliquam nam aliquid. Laudantium aut unde pariatur sit harum quo. Maxime nihil eos quae.",
+      "fabricacion": "2022-07-16T06:37:26.769Z",
+      "parte": 70523,
+      "comentarios": "Nam minima ea modi reiciendis qui harum sunt eos. Consequatur ut autem itaque sapiente reprehenderit."
+    }
+  ]
+}
