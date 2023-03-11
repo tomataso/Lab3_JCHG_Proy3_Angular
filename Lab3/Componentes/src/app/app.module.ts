@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { AgregarComponenteComponent } from './components/agregar-componente/agregar-componente.component';
 import { DetalleComponenteComponent } from './components/detalle-componente/detalle-componente.component';
 import { ListarComponenteComponent } from './components/listar-componente/listar-componente.component';
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { ListarComponenteComponent } from './components/listar-componente/listar
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

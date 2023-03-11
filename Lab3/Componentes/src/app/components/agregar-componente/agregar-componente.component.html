@@ -1,1 +1,72 @@
-<p>agregar-componente works!</p>
+<div style="width: 400px; margin: auto;">
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <div class="form-group">
+        <label for="title">Componentes</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          required
+          [(ngModel)]="componente.nombre"
+          name="title"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="descripcion">Descripción</label>
+        <input
+          class="form-control"
+          id="descripcion"
+          required
+          [(ngModel)]="componente.descripcion"
+          name="descripcion"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="fabricacion">Fecha de Fabricación</label>
+        <input
+          class="form-control"
+          id="fabricacion"
+          required
+          [(ngModel)]="componente.fabricacion"
+          name="fabricacion"
+        />
+      </div>
+
+
+      <div class="form-group">
+        <label for="parte"># Parte</label>
+        <input
+          class="form-control"
+          id="parte"
+          required
+          [(ngModel)]="componente.parte"
+          name="parte"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="comentarios">Comentarios</label>
+        <input
+          class="form-control"
+          id="comentarios"
+          required
+          [(ngModel)]="componente.comentarios"
+          name="descripcion"
+        />
+      </div>
+
+      <button (click)="salvarComponente()" class="btn btn-success">Enviar</button>
+    </div>
+
+    <div *ngIf="submitted">
+      <h4>Componente Agregado!</h4>
+      <button class="btn btn-success" (click)="nuevoComponente()">Agregar</button>
+    </div>
+  </div>
+</div>
+
+
+
